@@ -11,5 +11,8 @@
     "nuxt": "3.0.0-rc.11",
     "typescript": "^4.8.4",
     "vue-tsc": "^0.40.13"
+  },
+  "dependencies": {
+    "nuxt-graphql-client": "^0.1.19"
   }
 }

@@ -4,4 +4,10 @@ export default defineNuxtConfig({
     strict: true,
     typeCheck: true,
   },
-});
+  modules: ['nuxt-graphql-client'],
+  runtimeConfig: {
+    public: {
+      GQL_HOST: process.env.GQL_HOST,
+    },
+  },
+})
