@@ -1,0 +1,8 @@
+query getWebsiteConfig($id: String!) {
+  website(id: $id) {
+    sys {
+      id
+    }
+    title
+  }
+}
