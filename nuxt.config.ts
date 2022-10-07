@@ -10,12 +10,6 @@ export default defineNuxtConfig({
       Inter: [400, 500, 600, 700],
     },
   },
-  modules: ['nuxt-graphql-client'],
-  runtimeConfig: {
-    public: {
-      GQL_HOST: process.env.GQL_HOST,
-    },
-  },
   vite: {
     css: {
       preprocessorOptions: {
