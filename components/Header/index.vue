@@ -1,6 +1,7 @@
 <script lang="ts" setup>
 const { title } = defineProps<{
   title: string
+  srcset: string
 }>()
 </script>
 
@@ -9,11 +10,7 @@ const { title } = defineProps<{
     <img
       class="avatar"
       src="/images/glenngijsberts_medium.webp"
-      srcset="
-        /images/glenngijsberts_small.webp   240w,
-        /images/glenngijsberts_medium.webp  720w,
-        /images/glenngijsberts_large.webp  1280w
-      "
+      :srcset="srcset"
       sizes="(max-width: 768px) 240px, (max-width: 1440px) 1280px, 100vw"
       alt="Glenn Gijsberts"
     />
@@ -21,25 +18,12 @@ const { title } = defineProps<{
     <div class="content">
       <h1>{{ title }}</h1>
 
-      <p>
-        Graduated as
-        <a
-          class="hhs"
-          href="https://www.dehaagsehogeschool.nl/opleidingen/bachelors/communication-multimedia-design-voltijd"
-          >Interaction Designer</a
-        >, now working as front-end developer on modern and user-friendly websites and apps.
-        Currently I'm working in the Growth team of
-        <a href="https://www.ticketswap.com" class="ticketswap">TicketSwap</a>.
-      </p>
-
-      <a href="/glenngijsberts-resume.pdf">
-        <button class="resume">Download resume</button>
-      </a>
+      <slot />
     </div>
   </header>
 </template>
 
-<style lang="scss" scoped>
+<style lang="scss">
 header {
   padding: 16px;
   display: flex;
@@ -102,13 +86,10 @@ header {
       background-color: lighten($primary, 33%);
     }
   }
-}
 
-.ticketswap {
-  color: $primary;
-}
-
-.hhs {
-  color: $primary;
+  .buttons {
+    display: grid;
+    gap: 32px;
+  }
 }
 </style>
