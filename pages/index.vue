@@ -11,6 +11,11 @@ if (!data.value?.website?.title) {
 }
 
 const title = data.value.website.title
+
+useHead({
+  title: `${title} - Portfolio`,
+  viewport: 'width=device-width, initial-scale=1, maximum-scale=1',
+})
 </script>
 
 <template>
