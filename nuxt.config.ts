@@ -4,6 +4,12 @@ export default defineNuxtConfig({
     strict: true,
     typeCheck: true,
   },
+  buildModules: ['@nuxtjs/google-fonts'],
+  googleFonts: {
+    families: {
+      Inter: [400, 500, 600, 700],
+    },
+  },
   modules: ['nuxt-graphql-client'],
   runtimeConfig: {
     public: {
