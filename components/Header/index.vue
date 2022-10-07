@@ -20,6 +20,7 @@ const { title } = defineProps<{
 
     <div class="content">
       <h1>{{ title }}</h1>
+
       <p>
         Graduated as
         <a
@@ -30,6 +31,10 @@ const { title } = defineProps<{
         Currently I'm working in the Growth team of
         <a href="https://www.ticketswap.com" class="ticketswap">TicketSwap</a>.
       </p>
+
+      <a href="/glenngijsberts-resume.pdf">
+        <button class="resume">Download resume</button>
+      </a>
     </div>
   </header>
 </template>
@@ -78,13 +83,32 @@ header {
       }
     }
   }
+
+  button {
+    margin-top: 16px;
+    color: $primary;
+    background-color: transparent;
+    border: 1px solid $primary;
+    border-radius: 4px;
+    padding: 16px 24px;
+    font-size: 16px;
+    text-decoration: none;
+    cursor: pointer;
+    width: fit-content;
+    font-family: 'Inter', sans-serif;
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+
+    &:hover {
+      background-color: lighten($primary, 33%);
+    }
+  }
 }
 
 .ticketswap {
-  color: $ticketswap-blue;
+  color: $primary;
 }
 
 .hhs {
-  color: $hhs-green;
+  color: $primary;
 }
 </style>
