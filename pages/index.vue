@@ -38,6 +38,12 @@ useHead({
       <a href="https://www.ticketswap.com" class="ticketswap">TicketSwap</a>.
     </p>
 
+    <div class="buttons">
+      <NuxtLink to="/about-me">
+        <button class="resume">Learn more about me</button>
+      </NuxtLink>
+    </div>
+
     <ul class="links">
       <li>
         <a href="https://github.com/glenngijsberts">Github</a>
