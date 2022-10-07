@@ -14,6 +14,11 @@
   border: 0;
 }
 
+::selection {
+  background-color: $primary;
+  color: $invertedForeground;
+}
+
 body {
   color: $foreground;
   font-family: 'Inter', sans-serif;
