@@ -25,10 +25,10 @@ const { title } = defineProps<{
 
 <style lang="scss">
 header {
-  padding: 16px;
+  padding: 32px;
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 16px;
 
   img {
     border-radius: 50%;
@@ -37,7 +37,7 @@ header {
   .content {
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 16px;
 
     h1 {
       font-size: 48px;
