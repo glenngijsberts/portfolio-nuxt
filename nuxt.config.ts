@@ -10,4 +10,13 @@ export default defineNuxtConfig({
       GQL_HOST: process.env.GQL_HOST,
     },
   },
+  vite: {
+    css: {
+      preprocessorOptions: {
+        scss: {
+          additionalData: '@use "@/assets/_colors.scss" as *;',
+        },
+      },
+    },
+  },
 })
