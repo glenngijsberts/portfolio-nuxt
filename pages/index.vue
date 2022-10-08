@@ -19,10 +19,11 @@ useHead({
       <a
         class="hhs"
         href="https://www.dehaagsehogeschool.nl/opleidingen/bachelors/communication-multimedia-design-voltijd"
-        >Interaction Designer</a
+        >interaction designer</a
       >, now working as front-end developer on modern and user-friendly websites and apps. Currently
-      I'm working in the Growth team of
-      <a href="https://www.ticketswap.com" class="ticketswap">TicketSwap</a>.
+      I'm working in the growth team of
+      <a href="https://www.ticketswap.com" class="ticketswap">TicketSwap</a> and helping out as
+      homework support volunteer at <a href="https://www.hackyourfuture.net/">HackYourFuture</a>.
     </p>
 
     <div class="buttons">

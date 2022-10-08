@@ -33,7 +33,7 @@ useHead({
     </p>
 
     <p>
-      Currently I'm working at <a href="https://www.ticketswap.com">TicketSwap</a> in the Growth
+      Currently I'm working at <a href="https://www.ticketswap.com">TicketSwap</a> in the growth
       team. One of the recent projects I did was the frontend implementation of Google Login for the
       TicketSwap website.
     </p>
