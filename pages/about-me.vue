@@ -15,18 +15,18 @@ useHead({
       "
   >
     <p>
-      I'm 26 years old and originally from
+      I'm 27 years old and originally from
       <a href="https://en.wikipedia.org/wiki/The_Hague">The Hague</a>. I'm now living in
       <a href="https://en.wikipedia.org/wiki/Amsterdam">Amsterdam</a>, working at TicketSwap as
       front-end developer. I've started learning web development in 2012 during my studies. After
       doing several internships, I've started working as a front-end developer in 2016 at
-      <a href="https://sqits.nl/">Sqits</a>, along side my job as team leader at Albert Heijn.
+      <a href="https://sqits.nl/">Sqits</a>.
     </p>
 
     <p>
-      In 2020 I graduated as Interaction Designer. In the meantime I've kept working as front-end
-      developer, gaining experience in various stacks and doing multiple projects. I've experience
-      in modern technologies like
+      In 2020 I graduated as Interaction Designer at The Hague University. In the meantime I've kept
+      working as front-end developer, gaining experience in various stacks and doing multiple
+      projects. I've experience in modern technologies like
       <a href="https://stackshare.io/glenngijsberts"
         >React, Vue, TypeScript, GraphQL, Contentful, and more</a
       >.
